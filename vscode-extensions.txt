@@ -6,12 +6,10 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 Orta.vscode-jest
 andys8.jest-snippets
-ritwickdey.LiveServer
 vscode-icons-team.vscode-icons
 dsznajder.es7-react-js-snippets
-ritwickdey.vscode-live-server
-enkia.tokyo-night-vscode-theme
-ayu-theme.vscode-ayu
+ritwickdey.LiveServer
+enkia.tokyo-night
+GY.ayu-mirage-plus
 styled-components.vscode-styled-components
-tailwindlabs.tailwindcss-intellisense
-rust-lang.rust-analyzer
+bradlc.vscode-tailwindcss
