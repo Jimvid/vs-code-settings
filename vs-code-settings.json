@@ -1,26 +1,76 @@
 {
-  "workbench.colorTheme": "Tokyo Night",
-  "editor.fontFamily": "Operator Mono for Powerline, Menlo, Monaco, 'Courier New', monospace",
-  "workbench.iconTheme": "eq-material-theme-icons",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDelete": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
-  "svelte.enable-ts-plugin": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.selectionHighlight": false,
-  "editor.codeLens": false,
-  "editor.matchBrackets": "never",
-  "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
-  "breadcrumbs.enabled": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
-  "window.zoomLevel": 1
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.fontFamily": "Operator Mono for Powerline, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "svelte.enable-ts-plugin": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.selectionHighlight": false,
+    "editor.codeLens": false,
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "vim.leader": " ",
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.smartRelativeLine": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        }
+    ]
 }
